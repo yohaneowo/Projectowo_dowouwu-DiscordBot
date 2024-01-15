@@ -1,0 +1,21 @@
+{
+  "name": "Projectowo_dowouwu-DiscordBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "tsc-watch --onCompilationComplete \"node ./dist/app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "tsc-watch": "^6.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
